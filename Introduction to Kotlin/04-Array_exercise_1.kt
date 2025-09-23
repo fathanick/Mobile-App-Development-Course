@@ -1,11 +1,11 @@
 fun main() {
-    val numbers = intArrayOf(5, 10, 15, 20, 25)
+    val notifications = arrayOf(5, 8, 2, 10, 4, 7, 6)
 
-    var sum = 0
-    for (n in numbers) {
-        sum += n
+    println("Unread notifications per day:")
+    for (n in notifications) {
+        println(n)
     }
 
-    println("Numbers: ${numbers.joinToString()}")
-    println("Sum = $sum")
+    val total = notifications.sum()
+    println("Total notifications this week: $total")
 }
