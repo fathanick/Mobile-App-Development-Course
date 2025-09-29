@@ -13,11 +13,11 @@ open class SmartDevice(val name: String) {
 }
 
 class SmartLightDevice(name: String) : SmartDevice(name) {
-    var brightness: Int = 50
+    var brightnessLevel: Int = 50
 
     override fun turnOn() {
         super.turnOn()
-        println("Brightness: $brightness%")
+        println("Brightness: $brightnessLevel%")
     }
 }
 
