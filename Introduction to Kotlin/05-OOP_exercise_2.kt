@@ -67,6 +67,8 @@ fun main() {
     tv.increaseVolume()
     tv.turnOff()
 
+    println("\n")
+    
     lamp.turnOn()
     lamp.setBrightness(80) 
     lamp.turnOff()
