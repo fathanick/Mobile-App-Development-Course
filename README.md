@@ -8,13 +8,16 @@ The course introduces students to the fundamentals of mobile application develop
 
 ### 🛠️ Technologies Used
 
-Programming Language: Kotlin
+- Programming Language: Kotlin
 
-IDE: Android Studio
+- IDE: Android Studio
 
-Platform: Android
+- Platform: Android
 
-Reference Materials: 
-Android Developers Documentation (https://developer.android.com/)
-Android Developers Training (https://developer.android.com/courses)
-Kotlin Documentation (https://kotlinlang.org/docs/home.html)
+### Reference Materials: 
+
+- Android Developers Documentation (https://developer.android.com/)
+
+- Android Developers Training (https://developer.android.com/courses)
+
+- Kotlin Documentation (https://kotlinlang.org/docs/home.html)
