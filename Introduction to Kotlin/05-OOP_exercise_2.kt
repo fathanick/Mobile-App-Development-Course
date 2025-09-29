@@ -40,16 +40,16 @@ class SmartTvDevice(name: String) : SmartDevice(name, "Smart TV") {
 
 class SmartLightDevice(name: String) : SmartDevice(name, "Smart Light") {
 
-    var brightness: Int = 50
+    var brightnessLevel: Int = 50 
 
     override fun turnOn() {
         super.turnOn()
-        println("Light: brightness set to $brightness%")
+        println("Light: brightness set to $brightnessLevel%")
     }
 
-    fun setBrightness(level: Int) {
-        brightness = level.coerceIn(0, 100)
-        println("Light: brightness set to $brightness%")
+    fun setBrightness(level: Int) { // method name kept the same
+        brightnessLevel = level.coerceIn(0, 100)
+        println("Light: brightness set to $brightnessLevel%")
     }
 
     override fun turnOff() {
@@ -68,6 +68,6 @@ fun main() {
     tv.turnOff()
 
     lamp.turnOn()
-    lamp.setBrightness(80)
+    lamp.setBrightness(80) 
     lamp.turnOff()
 }
