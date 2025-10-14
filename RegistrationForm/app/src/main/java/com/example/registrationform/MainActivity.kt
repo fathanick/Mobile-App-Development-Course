@@ -72,7 +72,7 @@ fun RegistrationPage(){
     ){
         // Page title
         Text(
-            text = "Registration Form",
+            text = "Create New Account",
             fontSize = 40.sp,
             fontWeight = FontWeight.Bold,
             modifier = Modifier.padding(top = 60.dp, bottom = 20.dp)
@@ -150,7 +150,7 @@ fun RegistrationPage(){
                 shape = RoundedCornerShape(12.dp),
                 contentPadding = PaddingValues(horizontal = 12.dp, vertical = 8.dp)
             ) {
-                Text("Submit")
+                Text("SUBMIT")
             }
         }
     }
