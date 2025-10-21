@@ -35,6 +35,8 @@ class MainActivity : ComponentActivity() {
 
 // Data source: a list of course names.
 private val courseNames = listOf(
+    "Umar Khan",
+    "Introduction to Programming",
     "Software Engineering",
     "Mobile App Development",
     "Web Programming",
