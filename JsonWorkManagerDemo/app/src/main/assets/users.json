@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "users": [
+    {
+      "name": "Adam",
+      "age": 21,
+      "city": "Yogyakarta"
+    },
+    {
+      "name": "Siti",
+      "age": 20,
+      "city": "Jakarta"
+    },
+    {
+      "name": "Budi",
+      "age": 22,
+      "city": "Bandung"
+    }
+  ]
+}
